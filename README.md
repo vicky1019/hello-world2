@@ -1,2 +1,2 @@
-# hello-world2
+# python note
 i`m new
