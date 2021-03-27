@@ -16,3 +16,8 @@ print(codes)
 """listcomps"""
 codes_0 = [ord(symbol) for symbol in symbols]
 print(codes)
+
+# example 2
+"""include if else in listcomps"""
+beyond_ascii = [ord(s) for s in symbols if ord(s) > 38]
+print(beyond_ascii)

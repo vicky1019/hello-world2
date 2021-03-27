@@ -1,2 +1,2 @@
 # python note
-i`m new
+ practice on book fluent python
