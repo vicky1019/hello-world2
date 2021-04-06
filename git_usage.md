@@ -22,7 +22,10 @@ echo "# files_usage" >> README.md\
 `git push origin branchbame`
 
 ## 4. merge former version with current version code
+- after git commit use 
 `git rebase -i HEAD~2`(# handle twice update currently)\
+  insert module:replace pick with squash\
+  then quit with :wq\
 `git log`(check the log)\
 `git push origin branch_name`(if error occurs,you can change to the following code)\
 `git push origin branch_name -f` (-f means force，please be cautious when handling)
