@@ -14,12 +14,13 @@ echo "# files_usage" >> README.md\
 
 ## 3. push local branch to repository branch
 - before you push you local branch you need to pull the latest code from repository\
-`git checkout -b branchname ` \
+`cd pii_us_api(your project)` \
+`git checkout -b dev(branchname) ` \
 `git add ./git add filename.py` \
 `git status` (check the file status) \
 `git reset HEAD .idea`(untracked .idea) \
 `git commit -m"your comments on this push"` \
-`git push origin branchbame`
+`git push origin dev`
 
 ## 4. merge former version with current version code
 - after git commit use 
@@ -29,4 +30,8 @@ echo "# files_usage" >> README.md\
 `git log`(check the log)\
 `git push origin branch_name`(if error occurs,you can change to the following code)\
 `git push origin branch_name -f` (-f means force，please be cautious when handling)
+  
+- if you do close pull request, and want to push you modify code again, in this satuation you must use `git rebase`
+
+  
 
