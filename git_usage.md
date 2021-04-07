@@ -26,7 +26,7 @@ echo "# files_usage" >> README.md\
 - after git commit use 
 `git rebase -i HEAD~2`(# handle twice update currently)\
   insert module:replace pick with squash\
-  then quit with :wq\
+  then quit with :wq(twice)\
 `git log`(check the log)\
 `git push origin branch_name`(if error occurs,you can change to the following code)\
 `git push origin branch_name -f` (-f means force，please be cautious when handling)
