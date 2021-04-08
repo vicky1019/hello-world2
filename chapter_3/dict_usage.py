@@ -64,7 +64,7 @@ def defaultdict_fun():
     import re
     import collections
 
-    WORD_RE = re.compile(r"\w+")
+    WORD_RE = re.compile(r"[a-zA-z]+")
     index = collections.defaultdict(list)
     # file_name = sys.argv[1]  # run$python dict_usage.py filename.txt
     file_name = "test_dict.txt"
