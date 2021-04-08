@@ -59,6 +59,7 @@ def setdefault_fun():
 def defaultdict_fun():
     """method of defaultdict"""
     # data mining usually use this method
+    # customer ID index combination
     import sys
     import re
     import collections
