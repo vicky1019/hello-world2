@@ -1,4 +1,21 @@
-This last week I have made 4 separate purchases in store each for over $100 and I have not received any coupons? Furthermore I made several large purchases in store in September and again no coupons? Why? Thankyou Geoff
-Hi, I did try to pay my order using PayPal, however I got error on that time and the money was deducted from my PayPal balance under the Transaction ID: O-7LW17637V8978525C Kindly advice, are you going to process my order or refund my amount? Best Regards, IBRAHIM
-Good morning, This past week I’ve placed 2 separate orders trying to get the WOMEN STRETCH PILE-LINED FLEECE in black or blue for my mother. Both times the orders were canceled which was very disappointing. Could you help me with this? I’d like to order one for her. Thank you, Jessica
-UNU12346885 ORDER DETAILS ORDER STATUS 02/01/20 Minnie Hermogenes 76-18 69th Place Tower 1A Glendale, NY 113859174148700 QUANTITY:ITEMS:ORDER TOTALSTATUS - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - WOMEN FLUFFY YARN FLEECE FULL-ZIP JACKET - 2-WAY NEUTRAL CHECKED STOLE - WOMEN SOFT KNITTED FLEECE HIGH-NECK LONG-SLEEVE T-SHIRT - WOMEN SOFT KNITTED FLEECE HIGH-NECK LONG-SLEEVE T-SHIRT - WOMEN 1*1 RIBBED COTTON TURTLENECK LONG-SLEEVE T-SHIRT - WOMEN MARIMEKKO SHORT-SLEEVE T-SHIRT - WOMEN MARIMEKKO SHORT-SLEEVE T-SHIRT - WOMEN MARIMEKKO A-LINE SLEEVELESS DRESS - Gift Box (Large) $102.20 PROCESSING -- Sent from Gmail Mobile
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
