@@ -7,7 +7,7 @@
     RUN
     CMD
  -step
-  creat a file named Dockerfile
+  creat a file named Dockerfile\
     cd /Users/apple/PycharmProjects/git/python-notes
      
     `mkdir DockerFile_test`\
@@ -21,7 +21,7 @@
     `cat Dockerfile`(check the content in Dockerfile)\
     `docker build -t myimage:1.0 . ` \
     `waitting for building...`
-  after building
+  after building\
     `docker images` (check the you images)\
     `docker run your image id or your image name`\
     
