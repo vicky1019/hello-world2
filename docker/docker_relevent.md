@@ -2,9 +2,9 @@
 - how to create Dockerfile
 
    `$ cd your project`
-- basic instruction
-    FROM
-    RUN
+- basic instruction\
+    FROM\
+    RUN\
     CMD
  ## step
   - creat a file named Dockerfile\
@@ -21,6 +21,6 @@
     `docker build -t myimage:1.0 . ` \
     waitting for building...
   - after building\
-    `docker images` (check the you images)\
+    `docker images` (check how many images that you have,decide whether you may delete some one)\
     `docker run your image id or your image name`
     
