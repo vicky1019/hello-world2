@@ -22,5 +22,9 @@
     waitting for building...
   - after building\
     `docker images` (check how many images that you have,decide whether you may delete some one)\
-    `docker run your image id or your image name`
+    `docker rmi -f [your failed image id]`\
+    `docker run [your image id or your image name]`\
+    $ docker rmi `docker images -q`\
+    $ docker rm `docker ps -a -q`
+    
     
