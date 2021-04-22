@@ -13,7 +13,7 @@
     `cd DockerFile_test/`\
     `touch Dockerfile`\
     `vim Dockerfile`
-    - FROM ubuntu
+    - FROM ubuntu (images, you can get from docker hub)
     - RUN apt-get update
     - CMD ["echo", "hello world...! from my first docker image"]
 
@@ -26,7 +26,7 @@
     `docker run [your image id or your image name]`\
     $ docker rmi `docker images -q`\
     $ docker rm `docker ps -a -q`\
-    `docker ps `(check processing container id info)\
+    `docker ps "`(check processing container id info)\
     `docker stop [container id]`(stop the processing container)
     
     
