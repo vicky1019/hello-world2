@@ -25,6 +25,8 @@
     `docker rmi -f [your failed image id]`\
     `docker run [your image id or your image name]`\
     $ docker rmi `docker images -q`\
-    $ docker rm `docker ps -a -q`
+    $ docker rm `docker ps -a -q`\
+    `docker ps `(check processing container id info)\
+    `docker stop [container id]`(stop the processing container)
     
     
