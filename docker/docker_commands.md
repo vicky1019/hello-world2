@@ -22,11 +22,14 @@
     waitting for building...
   - after building\
     `docker images` (check how many images that you have,decide whether you may delete some one)\
-    `docker rmi -f [your failed image id]`\
-    `docker run [your image id or your image name]`\
+    `docker inspect [image ID|image name]`(get the details about the image in a json file)\
+    $ docker inspect pii_us 
+    `docker rmi -f [image ID]`\
+    `docker run [image ID|image name]`\
     $ docker rmi `docker images -q`\
     $ docker rm `docker ps -a -q`\
-    `docker ps "`(check processing container id info)\
-    `docker stop [container id]`(stop the processing container)
+    `docker ps -a"`(check processing container id info, -a: all the container)\
+    `docker stop [container ID]`(stop the processing container)\
+    `dcoker kill [container ID]`(force to stop container by container id)
     
     

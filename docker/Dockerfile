@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER apple <li.xin.ze1@pactera.com>
+
 
 RUN apt-get update
 
