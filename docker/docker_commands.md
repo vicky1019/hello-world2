@@ -36,5 +36,8 @@
     `dcoker kill [container ID]`(force to stop container by container id)
     
   - running a docker image \
-    `docker run [image ID|image name]`
+    `docker run [image ID|image name]`(return a id)
+    
+  - enter the container\
+    `docker exec it [id] /bin/sh`(enter the container by id, the id is docker run returned id)
     
