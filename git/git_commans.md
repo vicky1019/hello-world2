@@ -22,7 +22,7 @@ echo "# files_usage" >> README.md\
 `git commit -m"your comments on this push"` \
 `git push origin dev`
 
-## 4. merge former version with current version code
+## 4. merge former-version with current version code
 - after git commit use 
 `git rebase -i HEAD~2`(# handle twice update currently)\
   insert module:replace pick with squash\
@@ -31,7 +31,7 @@ echo "# files_usage" >> README.md\
 `git push origin branch_name`(if error occurs,you can change to the following code)\
 `git push origin branch_name -f` (-f means force，please be cautious when handling)
   
-- if you do close pull request, and want to push you modify code again, in this satuation you must use `git rebase`
+- if you do close pull request, and want to push you modify code again, in this situation you must use `git rebase`
 
   
 

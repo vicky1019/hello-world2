@@ -15,7 +15,8 @@
     `mkdir DockerFile_test`\
     `cd DockerFile_test/`\
     `touch Dockerfile`\
-    `vim Dockerfile`
+    `vim Dockerfile`\
+    ### example
     - FROM ubuntu (images, you can get from docker hub)
     - RUN apt update && apt upgrade
     - CMD ["echo", "hello world...! from my first docker image"]
