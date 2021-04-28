@@ -32,12 +32,18 @@
     $ docker rmi `docker images -q`\
     $ docker rm `docker ps -a -q`\
     `docker ps -a"`(check processing container id info, -a: all the container)\
+    `docker logs [contianer ID]`(check detail info)
     `docker stop [container ID]`(stop the processing container)\
     `dcoker kill [container ID]`(force to stop container by container id)
     
   - running a docker image \
-    `docker run [image ID|image name]`(return a id)
+    `docker run [image ID|image name]`(return a container id which is running)
     
   - enter the container\
-    `docker exec it [id] /bin/sh`(enter the container by id, the id is docker run returned id)
+    `docker exec it [running container id] /bin/sh`(enter the container by id, the id is docker run returned id)
+    
+  - problems\
+    when you met the problem like you can build images but you can not run the contianer\
+    first, use`docker ps -a`check all the containers\
+    than, use `docker logs [container ID]` to check the details
     
