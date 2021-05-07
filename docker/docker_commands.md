@@ -5,6 +5,7 @@
 - basic instructions\
     FROM\
     RUN\
+    ARG\
     ADD\
     ENV\
     CMD\
@@ -22,7 +23,7 @@
     - CMD ["echo", "hello world...! from my first docker image"]
 
     `cat Dockerfile`(check the content in Dockerfile)\
-    `docker build -t myimage:1.0 . ` \
+    `docker build -t myimage:1.0 . ` (attention: there is a ".")\
     waiting for building...
     
   - after building \
