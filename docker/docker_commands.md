@@ -29,10 +29,10 @@
   - after building \
     `docker images` (check how many images that you have,decide whether you may delete some one)\
     `docker inspect [image ID|image name]`(get the details about the image in a json file)\
-    $ docker inspect pii_us 
-    `docker rmi -f [image ID]`\
-    $ docker rmi `docker images -q`\
-    $ docker rm `docker ps -a -q`\
+    `$ docker inspect pii_us `\
+    `$ docker rmi -f [image ID]`\
+    $ docker rmi `docker images -q`(delete all the images)\
+    $ docker rm `docker ps -a -q`(delete all the container\
     `docker ps -a"`(check processing container id info, -a: all the container)\
     `docker logs [contianer ID]`(check detail info)
     `docker stop [container ID]`(stop the processing container)\

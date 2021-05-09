@@ -10,5 +10,5 @@
     `$ pip install -i http:---(domestic image)`\
     `$ pip list or pip freeze`(check whether you have installed the packages)\
         
-- flask framework\
+## flask framework
     here is an instance in app.py\ 
