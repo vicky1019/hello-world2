@@ -9,6 +9,9 @@
 - install some packages\
     `$ pip install -i http:---(domestic image)`\
     `$ pip list or pip freeze`(check whether you have installed the packages)\
+  
+- after install all the packages or dependencies\
+    `$ pip freeze > requirements.txt`(auto-create requirements.txt，save this requirement and its dependencies so App Platform can install them later)
         
-## flask framework
+## create mini flask app
     here is an instance in app.py\ 

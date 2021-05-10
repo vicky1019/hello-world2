@@ -1,14 +1,18 @@
 # basic commands
-- how to create Dockerfile
+- how to containerize Python applications\
+    1. Dockerfile, blueprint for building images\
+    2. Image, a template for running containers\
+    3. Container,actual running where we have our package project
+  
 
    `$ cd your project`
 - basic instructions\
-    FROM\
+    FROM [baseimage]\
     RUN\
     ARG\
-    ADD\
+    ADD [eg:your python script]\
     ENV\
-    CMD\
+    CMD [container terminal`s content]\
     EXPOSE
  ## step
   - creat a file named Dockerfile and building docker image \
@@ -23,7 +27,7 @@
     - CMD ["echo", "hello world...! from my first docker image"]
 
     `cat Dockerfile`(check the content in Dockerfile)\
-    `docker build -t myimage:1.0 . ` (attention: there is a ".")\
+    `docker build -t myimage:1.0 . ` (attention: there is a "." it means specify the location)\
     waiting for building...
     
   - after building \
