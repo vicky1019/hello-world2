@@ -5,13 +5,16 @@ echo "# practice" >> README.md\
 `$ git commit -m "first commit"`\
 `$ git branch -M main`\
 `$ git remote add origin https://github.com/pactera-vicky/practice.git` \
-or open your github, login your profile, and create a new repository called flask-app. create an empty repository without a README or license file,once you created the repository, return to the command line and push your local files to github\
 `$ git push -u origin main`
 
 ## 2. push an existing repository from the command line
+add your files to your repository`$ git add requirements.txt main.py .gitignore`\
+`$ git commit -m"first commit"`\
+or open your github, login your profile, and create a new repository called [your repository name-practice]. create an empty repository without a README or license file,once you created the repository, return to the command line and push your local files to github\
 `$ git remote add origin https://github.com/pactera-vicky/practice.git `\
+rename the default branch main, to match what github expects: \
 `$ git branch -M main` \
-`$ git push -u origin main` 
+`$ git push -u origin main`(push your main branch to github`s main branch) 
 
 ## 3. push local branch to repository branch
 - before you push you local branch you need to pull the latest code from the repository \
