@@ -1,19 +1,20 @@
-## 1. create a new repository on the command line
-echo "# files_usage" >> README.md\
-`git init` \
-`git add README.md` \
-`git commit -m "first commit"` \
-`git branch -M main` \
-`git remote add origin https://github.com/pactera-vicky/files_usage.git` \
-`git push -u origin main`\
+## 1. create a new repository
+echo "# practice" >> README.md\
+`$ git init`\
+`$ git add README.md`\
+`$ git commit -m "first commit"`\
+`$ git branch -M main`\
+`$ git remote add origin https://github.com/pactera-vicky/practice.git` \
+or open your github, login your profile, and create a new repository called flask-app. create an empty repository without a README or license file,once you created the repository, return to the command line and push your local files to github\
+`$ git push -u origin main`
 
 ## 2. push an existing repository from the command line
-`git remote add origin https://github.com/pactera-vicky/files_usage.git `\
-`git branch -M main` \
-`git push -u origin main` 
+`$ git remote add origin https://github.com/pactera-vicky/practice.git `\
+`$ git branch -M main` \
+`$ git push -u origin main` 
 
 ## 3. push local branch to repository branch
-- before you push you local branch you need to pull the latest code from repository\
+- before you push you local branch you need to pull the latest code from the repository \
 `cd pii_us_api(your project)` \
 `git checkout -b dev(branchname) ` \
 `git add ./git add filename.py` \
