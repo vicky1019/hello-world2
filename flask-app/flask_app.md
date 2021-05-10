@@ -14,7 +14,7 @@
     `$ pip freeze > requirements.txt`(auto-create requirements.txt，save this requirement and its dependencies so App Platform can install them later)
         
 ## 2. creating mini flask app
-    here is an instance in app.py\ 
+    here is an instance in app.py
 
 
 ## 3. setting up your gunicorn configuration

@@ -1,3 +1,5 @@
 # python note
- practice on book fluent python
- and other skills summary during development
+- practice on book fluent python 
+  
+- other hands-on skills summary during development
+
