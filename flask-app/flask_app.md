@@ -1,5 +1,5 @@
 # create http api interface
-## 1.create a new virtual env
+## 1. creating a virtual env for your python project
 - conda manage virtual env\
     `$conda env list`(check the current env list)\
     `$conda create -n py38 python==3.8`(create your virtual env named py38)\
@@ -13,5 +13,19 @@
 - after install all the packages or dependencies\
     `$ pip freeze > requirements.txt`(auto-create requirements.txt，save this requirement and its dependencies so App Platform can install them later)
         
-## create mini flask app
+## 2. creating mini flask app
     here is an instance in app.py\ 
+
+
+## 3. setting up your gunicorn configuration
+- what is gunicorn ?\
+    Gunicorn is a Python WSGI(web server gateway interface) HTTP server that many developers use to deploy their Python applications\-
+  
+### steps
+  - `$ touch gunicorn_config.py` Open a file named `gunicorn_config.py`
+  - Pushing the Site to GitHub\
+    `git init`\
+    ``
+    
+  
+  
