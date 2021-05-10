@@ -24,8 +24,16 @@
 ### steps
   - `$ touch gunicorn_config.py` Open a file named `gunicorn_config.py`
   - Pushing the Site to GitHub\
-    `git init`\
-    ``
+    `$ git init`\
+    `$ touch .gitignore`(unnecessary file ignored)\
+    add your files to your repository`$ git add app.py requirements.txt gunicorn_config.py .gitignore`\
+    `$ git commit -m"initial Flask app"`\
+    open your github, login your profile, and create a new repository called flask-app. create an empty repository without a README or license file,once you created the repository, return to the command line and push your local files to github\
+    `$ git remote add origin https://github.com/your_usrname/flask-app` \
+    rename the default branch main, to match what github expects:
+    `$ git branch -M main`\
+    `$ git push -u origin main` (push your main branch to github`s main branch)
+    
     
   
   
