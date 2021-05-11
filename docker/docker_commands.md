@@ -7,11 +7,12 @@
 
    `$ cd your project`
 - basic instructions\
-    FROM [baseimage]\
-    RUN\
-    ARG\
+    FROM [base-image]\
+    LABEL maintainer = "xinze.li1@pactera.com" \
+    ARG
+    RUN [execute commands]\
     ADD [eg:your python script]\
-    ENV\
+    ENV [add your os env]\
     CMD [container terminal`s content]\
     EXPOSE
  ## step
@@ -20,9 +21,9 @@
     `mkdir DockerFile_test`\
     `cd DockerFile_test/`\
     `touch Dockerfile`\
-    `vim Dockerfile`\
+    `vim Dockerfile`
     ### example
-    - FROM ubuntu (images, you can get from docker hub)
+    - FROM pyhton3.8 (images, you can get from docker hub)
     - RUN apt update && apt upgrade
     - CMD ["echo", "hello world...! from my first docker image"]
 
@@ -31,6 +32,7 @@
     waiting for building...
     
   - after building \
+    cd to the root of the project \
     `docker images` (check how many images that you have,decide whether you may delete some one)\
     `docker inspect [image ID|image name]`(get the details about the image in a json file)\
     `$ docker inspect pii_us `\
@@ -43,7 +45,8 @@
     `dcoker kill [container ID]`(force to stop container by container id)
     
   - running a docker image \
-    `docker run [image ID|image name]`(return a container id which is running)
+    docker run image ID|image name (return a container id which is running) `docker run myimage:1.0`
+    
     
   - enter the container\
     `docker exec it [running container id] /bin/sh`(enter the container by id, the id is docker run returned id)
