@@ -24,5 +24,9 @@ some easy and usefull commands
 ## cat
     cat filename can check the content in the file
     $cat touch.txt
+## rm
+    remove file
+    
+    `$ sudo rm file -r`
 
     

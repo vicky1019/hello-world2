@@ -41,7 +41,7 @@ rename the default branch main, to match what github expects:
 
 `git status` (check the file status) 
 
-`git reset HEAD .idea`(untracked .idea) 
+`git reset HEAD your_file_name`(to undo a git add eg:git reset HEAD .idea) 
 
 `git commit -m"your comments on this push"` 
 
@@ -50,11 +50,17 @@ rename the default branch main, to match what github expects:
 ## 4. merge former-version with current version code
 
 - after git commit use 
-`git rebase -i HEAD~2`(# handle twice update currently)\
-  insert module:replace pick with squash\
-  then quit with :wq(twice)\
-`git log`(check the log)\
-`git push origin branch_name`(if error occurs,you can change to the following code)\
+
+`git rebase -i HEAD~2`(# handle twice update currently)
+
+  insert module:replace pick with squash
+
+  then quit with :wq(twice)
+
+`git log`(check the log)
+
+`git push origin branch_name`(if error occurs,you can change to the following code)
+
 `git push origin branch_name -f` (-f means force，please be cautious when handling)
   
 - if you do close pull request, and want to push you modify code again, in this situation you must use `git rebase`
