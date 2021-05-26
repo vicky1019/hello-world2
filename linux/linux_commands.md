@@ -27,6 +27,12 @@ some easy and usefull commands
 ## rm
     remove file
     
-    `$ sudo rm file -r`
+    $ sudo rm file -r
+
+
+## ps(process status)
+    $ ps -ef | grep python (display the list of running processs in python)
+
+
 
     
