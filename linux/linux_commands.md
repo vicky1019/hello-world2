@@ -29,6 +29,8 @@ some easy and usefull commands
     
     $ sudo rm file -r
 
+    $ rm -rf file
+
 
 ## ps(process status)
     $ ps -ef | grep python (display the list of running processs in python)

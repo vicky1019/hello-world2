@@ -71,5 +71,10 @@ rename the default branch main, to match what github expects:
 
   `$ git branch -D your_branch_name`
 
+
+## git reset
+
+
+
   
 
