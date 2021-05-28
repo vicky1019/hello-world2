@@ -75,6 +75,17 @@ rename the default branch main, to match what github expects:
 ## git reset
 
 
+## how to change remote git repository
+
+- list your existing remote repositories
+
+  `$ git remote -v`
+- Change a remote Git repository
+
+  `$ git remote set-url origin https://github.com/[your_username]/[repository_name].git `
+
+- then check the remote repository list
+
 
   
 
