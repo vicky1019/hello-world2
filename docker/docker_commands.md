@@ -17,18 +17,18 @@
     EXPOSE
  ## step
   - creat a file named Dockerfile and building docker image \
-    `cd /Users/apple/PycharmProjects/git/python-notes`\
-    `mkdir DockerFile_test`\
-    `cd DockerFile_test/`\
-    `touch Dockerfile`\
-    `vim Dockerfile`
+    `$ cd /Users/apple/PycharmProjects/git/python-notes`\
+    `$ mkdir DockerFile_test`\
+    `$ cd DockerFile_test/`\
+    `$ touch Dockerfile`\
+    `$ vim Dockerfile`
     ### example
-    - FROM pyhton3.8 (images, you can get from docker hub)
+    - FROM python3.8 (images, you can get from docker hub)
     - RUN apt update && apt upgrade
     - CMD ["echo", "hello world...! from my first docker image"]
 
-    `cat Dockerfile`(check the content in Dockerfile)\
-    `docker build -t myimage:1.0 . ` (attention: there is a "." it means specify the location)\
+    `$ cat Dockerfile`(check the content in Dockerfile)\
+    `$ docker build -t myimage:1.0 . ` (attention: there is a "." it means specify the location)\
     waiting for building...
     
   - after building \
@@ -39,17 +39,17 @@
     `$ docker rmi -f [image ID]`\
     $ docker rmi `docker images -q`(delete all the images)\
     $ docker rm `docker ps -a -q`(delete all the container\
-    `docker ps -a"`(check processing container id info, -a: all the container)\
-    `docker logs [contianer ID]`(check detail info)
-    `docker stop [container ID]`(stop the processing container)\
-    `dcoker kill [container ID]`(force to stop container by container id)
+    `$ docker ps -a"`(check processing container id info, -a: all the container)\
+    `$ docker logs [contianer ID]`(check detail info)
+    `$ docker stop [container ID]`(stop the processing container)\
+    `$ dcoker kill [container ID]`(force to stop container by container id)
     
   - running a docker image \
     docker run image ID|image name (return a container id which is running) `docker run myimage:1.0`
     
     
   - enter the container\
-    `docker exec it [running container id] /bin/sh`(enter the container by id, the id is docker run returned id)
+    `$ docker exec it [running container id] /bin/sh`(enter the container by id, the id is docker run returned id)
     
   - problems\
     when you met the problem like you can build images but you can not run the contianer\
