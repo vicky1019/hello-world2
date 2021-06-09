@@ -69,7 +69,7 @@ rename the default branch main, to match what github expects:
 
 - delete a git branch locally
 
-  `$ git branch -D your_branch_name`
+  `$ git branch -D your_branch_name`(implement this command you need to switch to master)
 
 
 ## git reset
