@@ -90,4 +90,11 @@
     first, use`docker ps -a`check all the containers
     
     than, use `docker logs [container ID]` to check the details
+
+
+  - docker build image and push to GCR
+
+  `docker build -t gcr.io/fr-dev-piiworker/pii-jp-api:v-test .`(version:v1 or v-test must be lowercase)
+
+  `docker push v-test`
     
