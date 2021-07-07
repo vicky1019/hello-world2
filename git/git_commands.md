@@ -72,10 +72,10 @@ rename the default branch main, to match what github expects:
   `$ git branch -D your_branch_name`(implement this command you need to switch to master)
 
 
-## git reset
+## 6.git reset
 
 
-## how to change remote git repository
+## 7.how to change remote git repository
 
 - list your existing remote repositories
 
@@ -85,6 +85,14 @@ rename the default branch main, to match what github expects:
   `$ git remote set-url origin https://github.com/[your_username]/[repository_name].git `
 
 - then check the remote repository list
+
+## 8. when modification on a branch if you need to switch to another branch and keep the changes
+
+- `git stash`(remeber the stash note)
+
+- `git stash list`(check the list you stashed and pick the right {number} you want to get back)
+  
+- 'git stash apply stash@{number}'
 
 
   
