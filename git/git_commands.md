@@ -94,6 +94,11 @@ rename the default branch main, to match what github expects:
   
 - 'git stash apply stash@{number}'
 
+## 9. change branch name
+
+- git branch -m [oldBranchName] [newBranchName]
+
+
 
   
 
