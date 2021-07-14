@@ -40,6 +40,11 @@ some easy and usefull commands
 
     pkill -f pii_api.py (kill the *.py)
 
+## if you want to run terminal commands in python script
+
+    by using: import os
+    os.sys('your python commands') eg: os.sytem('ps -ef | grep python')
+
 
 
 
