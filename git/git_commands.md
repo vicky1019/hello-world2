@@ -88,7 +88,7 @@ rename the default branch main, to match what github expects:
 
 ## 8. when modification on a branch if you need to switch to another branch and keep the changes
 
-- `git stash`(remeber the stash note)
+- `git stash`(remember the stash note)
 
 - `git stash list`(check the list you stashed and pick the right {number} you want to get back)
   
