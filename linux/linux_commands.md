@@ -33,13 +33,12 @@ some easy and usefull commands
 
 
 ## ps(process status)
-    $ ps -ef | grep python (display the list of running processs in python)
 
-    - kill all the python process
+    ps -ef | grep python (display the list of running processs in python)
 
-    `$ pkill python`
+    pkill python (kill all the python program
 
-    `$ pkill -f 'pii_api.py'`
+    pkill -f pii_api.py (kill the *.py)
 
 
 
