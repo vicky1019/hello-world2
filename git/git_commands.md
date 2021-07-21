@@ -98,13 +98,31 @@ rename the default branch main, to match what github expects:
 
 - git branch -m [oldBranchName] [newBranchName]
 
-## 10.git checkout tag
+## 10.git tag
+
+- git create tag
+  
+  - The tag should been created in the master branch
+  
+   git checkout master
+   
+  - create the tag
+  
+  git tag release-jp-fix-v1 -m "The release of the fix for jp"
+   
+  - push the tag to origin registry
+  
+  git push origin release-jp-fix-v1
 
 - git checkout tags/[tag_name] -b [branchname]
    
    first git pull(pull the tag code)
   
   `git checkout tags/release-jp-fix-v2 -b release-jp-fix-v2-branch`
+
+
+
+
 
 
 
