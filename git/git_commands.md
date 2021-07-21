@@ -98,6 +98,14 @@ rename the default branch main, to match what github expects:
 
 - git branch -m [oldBranchName] [newBranchName]
 
+## 10.git checkout tag
+
+- git checkout tags/[tag_name] -b [branchname]
+   
+   first git pull(pull the tag code)
+  
+  `git checkout tags/release-jp-fix-v2 -b release-jp-fix-v2-branch`
+
 
 
   
